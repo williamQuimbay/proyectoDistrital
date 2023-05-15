@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T15:55:54.142Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.2" etag="Zu9Kbswy96Q5hUtJ4e67" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T16:07:36.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="H_iyQnci0goQVA7qgwpQ" version="21.3.2" type="github">
   <diagram name="Página-1" id="N7pPsCMgpa-5XjfiugQX">
-    <mxGraphModel>
+    <mxGraphModel dx="1956" dy="1173" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qx4a_velYc_sHt4eDQDr-3" value="encabezado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="760" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qx4a_velYc_sHt4eDQDr-5" value="foto" style="whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qx4a_velYc_sHt4eDQDr-6" value="nombre y datos personales" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="110" width="560" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qx4a_velYc_sHt4eDQDr-7" value="menú&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="160" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qx4a_velYc_sHt4eDQDr-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="580" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="qx4a_velYc_sHt4eDQDr-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="940" width="770" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qx4a_velYc_sHt4eDQDr-15" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="370" width="540" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qx4a_velYc_sHt4eDQDr-16" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="500" width="540" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qx4a_velYc_sHt4eDQDr-17" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="620" width="540" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qx4a_velYc_sHt4eDQDr-18" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="760" width="540" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
