@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T16:29:14.568Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Lisb_C00TDP9IFmTTsbd" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T16:37:16.460Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ujmuL7BGfI6Ix9FlIMiH" version="21.3.2" type="github">
   <diagram name="Página-1" id="N7pPsCMgpa-5XjfiugQX">
-    <mxGraphModel dx="1600" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,10 @@
           <mxGeometry x="240" y="30" width="560" height="190" as="geometry" />
         </mxCell>
         <mxCell id="qx4a_velYc_sHt4eDQDr-7" value="menú&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="320" width="160" height="320" as="geometry" />
+          <mxGeometry x="670" y="320" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="qx4a_velYc_sHt4eDQDr-22" value="experiencia&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="qx4a_velYc_sHt4eDQDr-7">
+          <mxGeometry x="12.5" y="40" width="135" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qx4a_velYc_sHt4eDQDr-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="25" y="320" width="620" height="620" as="geometry" />
@@ -34,8 +37,17 @@
         <mxCell id="qx4a_velYc_sHt4eDQDr-17" value="&lt;h1&gt;Habilidades.&amp;nbsp;&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="730" width="540" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="qx4a_velYc_sHt4eDQDr-18" value="&lt;h1&gt;conocimientos y Habilidades&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="610" width="540" height="120" as="geometry" />
+        <mxCell id="qx4a_velYc_sHt4eDQDr-18" value="&lt;h1&gt;conocimientos&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="610" width="540" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qx4a_velYc_sHt4eDQDr-23" value="estudios" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="682.5" y="400" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qx4a_velYc_sHt4eDQDr-24" value="conocimientos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="682.5" y="440" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qx4a_velYc_sHt4eDQDr-25" value="habilidades" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="682.5" y="480" width="135" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
