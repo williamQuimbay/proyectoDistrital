@@ -1,0 +1,160 @@
+/* fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,300;1,400&family=Yellowtail&display=swap");
+* {
+  font-family: "Titillium Web";
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* inicio */
+
+.inicio {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/fondo.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #ffff;
+}
+
+.inicio .contenido-seccion {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding: 0 10px;
+}
+.inicio .contenido-seccion header {
+  padding: 30px;
+}
+
+/* menu lateral */
+
+.inicio .contenido-seccion header nav {
+  position: fixed;
+  margin-left: 60px;
+  background-color: #161485;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  z-index: 99;
+  display: none;
+}
+.inicio .contenido-seccion header nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* logo */
+.inicio .contenido-seccion header .logo {
+  font-weight: bold;
+  font-size: 2.5 rem;
+  font-family: "Yellowtail";
+  text-shadow: 0 0 35px #fff;
+}
+.inicio .contenido-seccion header .logo .color {
+  color: #3d3baa;
+  font-family: "Yellowtail";
+}
+
+.inicio .contenido-seccion header .nav-bar {
+  position: fixed;
+  background-color: #161485;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.inicio .contenido-seccion header .nav-bar:hover {
+  box-shadow: 0 0 35px #fff;
+}
+.inicio .contenido-seccion .info {
+  padding-bottom: 130px;
+}
+.inicio .contenido-seccion .info h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+.inicio .contenido-seccion .info h2 {
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: -10px;
+  letter-spacing: 2px;
+}
+.inicio .contenido-seccion .info .redes {
+  margin: 20px 0;
+}
+.inicio .contenido-seccion .info .redes a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #000;
+  color: #161485;
+  border: 1px solid #161485;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+.inicio .contenido-seccion .info .redes a:hover {
+  color: #fff;
+  background-color: #161485;
+  box-shadow: 0 0 20px #fff;
+}
+.inicio .contenido-seccion .foto {
+  position: relative;
+}
+.inicio .contenido-seccion .foto img {
+  max-width: 180px;
+  border-radius: 50%;
+  border: 5px solid #161485;
+  position: absolute;
+  left: 50%;
+  top: -100px;
+  transform: translateX(-50%);
+}
+
+/* estilos generales */
+.titulo-seccion {
+  font-family: "Yellowtail";
+}
+
+/*sobre mi */
+
+.sobremi {
+  background-color: #e6e6e6;
+  padding: 140px 0 100px 0;
+  text-align: center;
+}
+.sobremi .contenido-seccion {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+.sobremi .contenido-seccion h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.sobremi .contenido-seccion .especial {
+  color: #161485;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.sobremi .contenido-seccion p {
+  max-width: 700px;
+  margin: auto;
+  color: #666;
+}
+.sobremi .contenido-seccion .fila {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
