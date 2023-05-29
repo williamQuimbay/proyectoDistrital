@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="icon" href="img/wil.jpg"" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -12,20 +13,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>william quimbay</title>
+    <title>ing. william quimbay</title>
   </head>
   <body>
     <!--inicio-->
     <section class="inicio" id="inicio">
       <div class="contenido-seccion">
         <header>
-          <div class="nav-bar">
+          <div class="nav-bar" onclick="mostrarOcultarMenu()">
             <i class="fa-solid fa-bars"></i>
           </div>
           <nav id="nav" class="nav">
             <a href="#inicio">Inicio</a>
             <a href="#sobremi">Sobre mi</a>
             <a href="#habilidades">Habilidades</a>
+            <a href="#resumen">Resumen</a>
             <a href="#contacto">Contacto</a>
           </nav>
           <div class="logo">W<span class="color">Q</span></div>
@@ -34,8 +36,8 @@
           <h1>WILLIAM LEONARDO QUIMBAY FEO</h1>
           <h2>INGENIERO DE SOFTWARE</h2>
           <div class="redes">
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <!-- <a href="#"><i class="fa-brands fa-twitter"></i></a> -->
+           <!--  <a href="#"><i class="fa-brands fa-facebook"></i></a> -->
             <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
             <a href="#"><i class="fa-brands fa-github"></i></a>
             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -94,5 +96,200 @@
         </div>
       </div>
     </section>
+
+    <!-- habilidades -->
+    <section class="habilidades" id="habilidades">
+      <div class="contenido">
+        <h2 class="titulo">Mis Habilidades</h2>
+        <h3>Me especializo en</h3>
+
+        <div class="fila">
+          <div class="col">
+            <span>HTML/CSS</span>
+            <div class="cont-barra">
+              <div class="barra" id="html">
+                <!--barras -->
+              </div>
+              <span>98%</span>
+            </div>
+          </div>
+          <div class="col">
+            <span>JAVASCRIPT</span>
+            <div class="cont-barra">
+              <div class="barra" id="javaScript"/>
+                <!--barras -->
+                </div>
+              <span>50%</span>
+            </div>
+            </div>
+          </div>
+          <div class="fila">
+            <div class="col">
+              <span>LARAVEL</span>
+              <div class="cont-barra">
+                <div class="barra" id="Laravel">
+                  <!--barras -->
+                </div>
+                <span>10%</span>
+              </div>
+            </div>
+            <div class="col">
+              <span>PHP</span>
+              <div class="cont-barra">
+                <div class="barra" id="php"/>
+                  <!--barras -->
+                  </div>
+                <span>40%</span>
+              </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- resumen -->
+    <section class="resumen" id="resumen">
+      <div class="contenido">
+        <h2 class="titulo-seccion">Resumen</h2>
+        <h3>Mi preparacion y experiencia</h3>
+        <div class="info">
+          <div class="col">
+            <span class="titulo">Educacion</span>
+            <table>
+              <tr>
+                <td class="datos">
+                  <h3>2017 - 2018</h3>
+                </td>
+                <td rowspan="2" class="descripcion" >
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestias minima cum aliquid sit eaque delectus, commodi unde magni possimus incidunt necessitatibus vitae exercitationem error perferendis nihil. Suscipit, possimus animi.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>tecnico en sistemas</h4>
+                  <p>sena</p>
+                  <span class="promedio">4.5 PG</span>
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td class="datos">
+                  <h3>2019 - 2021</h3>
+                </td>
+                <td rowspan="2" class="descripcion" >
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestias minima cum aliquid sit eaque delectus, commodi unde magni possimus incidunt necessitatibus vitae exercitationem error perferendis nihil. Suscipit, possimus animi.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>ingenieria de sistemas</h4>
+                  <p>corporacion unificada nacional</p>
+                  <p>5 semestre</p>
+                  <span class="promedio">3.5 PG</span>
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td class="datos">
+                  <h3>2022 - actualidad</h3>
+                </td>
+                <td rowspan="2" class="descripcion" >
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestias minima cum aliquid sit eaque delectus, commodi unde magni possimus incidunt necessitatibus vitae exercitationem error perferendis nihil. Suscipit, possimus animi.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>ingenieria de Software</h4>
+                  <p>4 semestre</p>
+                  <p>fundacion compensar</p>
+                  <span class="promedio">4.5 PG</span>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="col">
+            <span class="titulo">Experiencia Laboral</span>
+            <table>
+              <tr>
+                <td class="datos">
+                  <h3>3 años</h3>
+                </td>
+                <td rowspan="2" class="descripcion" >
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestias minima cum aliquid sit eaque delectus, commodi unde magni possimus incidunt necessitatibus vitae exercitationem error perferendis nihil. Suscipit, possimus animi.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>Colchones paraiso</h4>
+                  <p>Tecnico en sistemas</p>
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td class="datos">
+                  <h3>6 meses</h3>
+                </td>
+                <td rowspan="2" class="descripcion" >
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestias minima cum aliquid sit eaque delectus, commodi unde magni possimus incidunt necessitatibus vitae exercitationem error perferendis nihil. Suscipit, possimus animi.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>Escobar y martinez</h4>
+                  <p>Analista de sistemas</p>
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td class="datos">
+                  <h3>Actual</h3>
+                </td>
+                <td rowspan="2" class="descripcion" >
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestias minima cum aliquid sit eaque delectus, commodi unde magni possimus incidunt necessitatibus vitae exercitationem error perferendis nihil. Suscipit, possimus animi.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>Eys soluciones</h4>
+                  <p>Tecnico soporte primer nivel</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contacto -->
+    <section class="contacto" id="contacto">
+      <div class="contenido">
+        <h2 class="titulo">Contacto</h2>
+        <h3>Ponte en contacto ahora mismo!</h3>
+        <div class="fila">
+          <div class="col">
+            <h2>
+              <i class="fa-solid fa-phone"></i>Telefono
+            </h2>
+            <span class="info-cont">(+57) 3102524537</span>
+          </div>
+          <div class="col">
+            <h2>
+              <i class="fa-solid fa-envelope"></i>correo
+            </h2>
+            <span class="info-email">quimbayfeo@gmail.com</span>
+          </div>
+          <div class="col">
+            <h2>
+              <i class="fa-solid fa-earth-americas"></i>Página web
+            </h2>
+            <span class="info-email">williamquimbay.com</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/app.js" ></script>
   </body>
 </html>
+ 
